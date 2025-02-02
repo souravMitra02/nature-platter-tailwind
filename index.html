@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nature-Platter</title>
+    <!-- Favicon-Image -->
+     <link  rel="shortcut icon" href="Images/logo-header.png" type="image/x-icon">
     <!-- Tailwind-CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- DaisyUI-CDN -->
@@ -31,11 +33,11 @@
         };
       </script>      
 </head>
-<body>
-    <header class="bg-secoundry px-3 lg:px-10 pt-3">
+<body class="font-sora">
+    <header class="bg-gradient-to-b from-[#FFFFFF] to-[#EFEBE3] px-3 lg:px-10 pt-3">
         <!-- nav-Section Start -->
-       <nav class="flex items-center justify-between">
-        <img class="w-20 lg:w-28 md:w-24" src="Images/logo-header.png" alt="">
+       <nav class=" flex items-center justify-between border-b-2 border-primary md:border-none lg:border-none">
+        <img class="w-20 lg:w-28 md:w-24 mb-2 md:mb-0 lg:mb-0" src="Images/logo-header.png" alt="">
         <ul class="hidden lg:flex md:flex gap-10 text-xl ">
             <li class="hover:bg-primary rounded-md px-4 py-3 hover:text-white">Product</li>
             <li class="hover:bg-primary rounded-md px-4 py-3 hover:text-white">Services</li>
@@ -59,14 +61,35 @@
                 Count</span> On, Prices You’ll Love!</h2>
                 <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
         </div>
-        <div class="bg-gradient-to-r from-[#EFEBE3] to-[#EFEBE3]">
+        <div class="">
             <img class=" md:w-9/12 lg:w-6/12 mx-auto" src="Images/hero-vegetables.png" alt="">
         </div>
      </div>
     </header>
     <!-- Banner-Section End -->
+     
     <main>
-        
+<!-- Service-Section Start -->
+        <section class="px-5 md:px-16 lg:px-20 mt-10 md:mt-16 lg:mt-20">
+            <h2 class="text-primary font-bold text-2xl">Services</h2>
+            <div class=" md:flex lg:flex space-y-5 md:space-y-0 lg:space-y-0 md:gap-6 lg:gap-5 text-center mt-10">
+                <div class="bg-secoundry space-y-3 p-5 rounded-lg">
+                    <img  class="bg-white rounded-full p-5 mx-auto" src="Images/service.png" alt="">
+                    <h2 class="text-2xl font-bold">24/7 Services </h2>
+                    <p>"Our company provides 24/7 services, ensuring reliable support, quick responses, and customer satisfaction anytime, day or night."</p>
+                </div>
+                <div class="bg-secoundry space-y-3 p-5 rounded-lg">
+                    <img class="bg-white rounded-full p-5 mx-auto" src="Images/delivery.png" alt="">
+                    <h2 class="text-2xl font-bold">Fast Delivery </h2>
+                    <p>"We guarantee fast delivery, ensuring your orders arrive on time with efficiency, reliability, and customer satisfaction as our top priorities."</p>
+                </div>
+                <div class="bg-secoundry space-y-3 p-5 rounded-lg">
+                    <img class="bg-white rounded-full p-5 mx-auto" src="Images/healthy.png" alt="">
+                    <h2 class="text-2xl font-bold">Healthy Products </h2>
+                    <p>"We offer healthy products made from natural ingredients, ensuring quality, nutrition, and wellness for a better lifestyle."</p>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
 
